@@ -1,4 +1,13 @@
 # Kotest Protobuf Property Testing
+![Maven Central Version](https://img.shields.io/maven-central/v/io.github.dogacel/kotest-property-protobuf?style=for-the-badge)
+![GitHub Release Date](https://img.shields.io/github/release-date/Dogacel/kotest-property-protobuf?display_date=published_at&style=for-the-badge)
+
+[![Build](https://github.com/Dogacel/kotest-property-protobuf/actions/workflows/build.yaml/badge.svg)](https://github.com/Dogacel/kotest-property-protobuf/actions/workflows/build.yaml)
+[![codecov](https://codecov.io/gh/Dogacel/kotest-property-protobuf/graph/badge.svg?token=6FE41BE2ZK)](https://codecov.io/gh/Dogacel/kotest-property-protobuf)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Contributors](https://img.shields.io/github/contributors/dogacel/kotest-property-protobuf.svg)](https://github.com/dogacel/kotest-property-protobuf/contributors)
+[![Commits](https://img.shields.io/github/commit-activity/m/dogacel/kotest-property-protobuf.svg?label=commits)](https://github.com/dogacel/kotest-property-protobuf/pulse)
+
 
 Property testing extension for Protobuf using `kotest-property`. You can generate random protobuf messages using 
 `Arb.protobufMessage<...>()` call and customize the generation properties.

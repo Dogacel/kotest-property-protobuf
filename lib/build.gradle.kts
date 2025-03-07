@@ -38,6 +38,19 @@ tasks.withType<Test>().configureEach {
     useJUnitPlatform()
 }
 
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:${libs.versions.protobuf.get()}"
+    }
+
+    // Enable Kotlin generation
+    generateProtoTasks {
+        all().forEach {
+            it.builtins { }
+        }
+    }
+}
+
 sourceSets {
     test {
         proto {}
