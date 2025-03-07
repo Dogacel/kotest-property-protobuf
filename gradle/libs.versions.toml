@@ -1,0 +1,15 @@
+[versions]
+kotest = "6.0.0.M2"
+protobuf = "4.29.3"
+
+
+[libraries]
+kotest-junit = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-property = { module = "io.kotest:kotest-property", version.ref = "kotest" }
+
+protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "protobuf" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.21" }
+protobuf = { id = "com.google.protobuf", version = "0.9.4" }
